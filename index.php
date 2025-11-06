@@ -38,9 +38,9 @@
                 <h1>ClickVote</h1>
             </div>
             <ul class="nav-links">
-                <li><a href="http://localhost/voting_system/home.html">Home</a></li>
-                <li><a href="http://localhost/voting_system/">User Login</a></li>
-                <li><a href="http://localhost/voting_system/admin/">Admin Login</a></li>
+                <li><a href="http://localhost:8080/voting_system/home.html">Home</a></li>
+                <li><a href="http://localhost:8080/voting_system/">User Login</a></li>
+                <li><a href="http://localhost:8080/voting_system/admin/">Admin Login</a></li>
             </ul>
         </nav>
     </header>
