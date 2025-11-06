@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Voting System</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+
+        }
+
+        header {
+            background-color: #20c66b;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-links {
+            list-style: none;
+            margin-left: 15px;
+            margin-right: 20px;
+        }
+
+        .nav-links li {
+            display: inline;
+            margin-left: 15px;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .hero {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        .hero-content {
+            flex: 1;
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+
+        .hero-image {
+            flex: 1;
+            max-width: 50%;
+            height: auto;
+        }
+
+        footer {
+            background-color: #20c66b;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>ClickVote</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="http://localhost/voting_system/home.html">Home</a></li>
+                <li><a href="http://localhost/voting_system/index.php">User Login</a></li>
+                <li><a href="http://localhost/voting_system/admin/index.php">Admin Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Participate in the Future of Democracy</h2>
+                <p>Your vote is your voice. Register today and be ready to make a difference in the next election.</p>
+            </div>
+            <img src="https://t3.ftcdn.net/jpg/03/89/61/88/360_F_389618887_PImTbyGB4vTQOoGKxjhOKp2w7hZmcNAs.jpg"
+                alt="Voters participating in election" class="hero-image">
+        </section>
+    </main>
+    <footer>
+        <p>Copyright © ClickVote 2024</p>
+    </footer>
+</body>
+
+</html>
